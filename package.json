@@ -1,0 +1,24 @@
+{
+  "name": "jenkins_test_github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "build":"webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/signorhua/jenkins_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/signorhua/jenkins_test/issues"
+  },
+  "homepage": "https://github.com/signorhua/jenkins_test#readme",
+  "dependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
